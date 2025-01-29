@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Uděl délku cesty (km): ");
-double delkacesty = Convert.ToInt32(Console.ReadLine());
+double delkaCesty = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Uděl spotřebu auta na 100km: ");
 double spotreba = Convert.ToInt32(Console.ReadLine());
@@ -7,10 +7,10 @@ double spotreba = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Kapacita nádrže: ");
 double kapacita = Convert.ToInt32(Console.ReadLine());
 
-double natankovat = Math.Floor(delkacesty / spotreba / kapacita);
+double natankovat = Math.Floor(delkaCesty / spotreba / kapacita);
 Console.WriteLine($"Je potřeba zastavit a natankovat {natankovat}x.");
 
-double celkovaspotreba = Math.Floor(delkacesty / spotreba);
+double celkovaspotreba = Math.Floor(delkaCesty / spotreba);
 Console.WriteLine($"Na celou cestu je potřeba {celkovaspotreba}L.");
 
 double palivonakonec = Math.Floor(celkovaspotreba * natankovat / spotreba);
