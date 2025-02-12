@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Uděl délku cesty (km): ");
-double delkaCesty = Convert.ToInt32(Console.ReadLine());
+double delkaCesty = 1000;
 
 Console.WriteLine("Uděl spotřebu auta na 100km: ");
 double spotreba = Convert.ToInt32(Console.ReadLine());
