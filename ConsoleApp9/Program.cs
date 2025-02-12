@@ -10,8 +10,8 @@ double kapacita = Convert.ToInt32(Console.ReadLine());
 double natankovat = Math.Floor(delkaCesty / spotreba / kapacita);
 Console.WriteLine($"Je potřeba zastavit a natankovat {natankovat}x.");
 
-double celkovaspotreba = Math.Floor(delkaCesty / spotreba);
+double celkovaSpotreba = Math.Floor(delkaCesty / spotreba);
 Console.WriteLine($"Na celou cestu je potřeba {celkovaspotreba}L.");
 
-double palivonakonec = Math.Floor(celkovaspotreba * natankovat / spotreba);
+double palivonakonec = Math.Floor(celkovaSpotreba * natankovat / spotreba);
 Console.WriteLine($"Na konci cesty je potřeba {palivonakonec}L.");
