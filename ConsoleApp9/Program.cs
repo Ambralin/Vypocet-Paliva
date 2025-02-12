@@ -17,3 +17,5 @@ Console.WriteLine($"Na celou cestu je potřeba {celkovaSpotreba}L.");
 
 double palivoNaKonec = Math.Floor(celkovaSpotreba * natankovat / spotreba);
 Console.WriteLine($"Na konci cesty je potřeba {palivoNaKonec}L.");
+
+Console.WriteLine("AHoj");
