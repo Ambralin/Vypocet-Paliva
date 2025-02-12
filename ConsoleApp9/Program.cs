@@ -11,7 +11,7 @@ double natankovat = Math.Floor(delkaCesty / spotreba / kapacita);
 Console.WriteLine($"Je potřeba zastavit a natankovat {natankovat}x.");
 
 double celkovaSpotreba = Math.Floor(delkaCesty / spotreba);
-Console.WriteLine($"Na celou cestu je potřeba {celkovaspotreba}L.");
+Console.WriteLine($"Na celou cestu je potřeba {celkovaSpotreba}L.");
 
 double palivonakonec = Math.Floor(celkovaSpotreba * natankovat / spotreba);
 Console.WriteLine($"Na konci cesty je potřeba {palivonakonec}L.");
